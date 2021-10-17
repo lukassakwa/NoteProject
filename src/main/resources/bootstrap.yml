@@ -1,0 +1,3 @@
+# Bootstrpa.yml kompilator otwiera przed wszystkimi innymi plikami *.yml, .properties
+# Zazwyczaj zawiera dane wrazliwe (hasla, loginy, adresy serwera, klucz)
+# Serwer sprawdza ten plik, przoprowadza weryfikacje i jak jestesmy uprawnieni dostajemy dostep
