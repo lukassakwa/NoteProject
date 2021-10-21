@@ -10,6 +10,9 @@ public class TaskGroup extends TaskBase{
     //Relacja pomiedzy task entity a group entity
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "group")
     private Set<Task> tasks;
+    @ManyToOne
+    @JoinColumn(name = "project_id")
+    private Projects project;
 
     public TaskGroup(){
     }
