@@ -1,7 +1,7 @@
 package io.github.sakiRoot.springProject.controller;
 
 import io.github.sakiRoot.springProject.model.Task;
-import io.github.sakiRoot.springProject.model.TaskRepository;
+import io.github.sakiRoot.springProject.adapter.TaskRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
