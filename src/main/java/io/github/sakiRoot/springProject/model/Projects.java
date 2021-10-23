@@ -35,4 +35,20 @@ public class Projects {
     public void setDescription(String description) {
         this.description = description;
     }
+
+    public Set<TaskGroup> getTaskGroups() {
+        return taskGroups;
+    }
+
+    public void setTaskGroups(Set<TaskGroup> taskGroups) {
+        this.taskGroups = taskGroups;
+    }
+
+    public Set<ProjectsSteps> getProjectsSteps() {
+        return projectsSteps;
+    }
+
+    public void setProjectsSteps(Set<ProjectsSteps> projectsSteps) {
+        this.projectsSteps = projectsSteps;
+    }
 }
