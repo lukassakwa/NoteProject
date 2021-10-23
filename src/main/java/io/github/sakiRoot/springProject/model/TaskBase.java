@@ -7,10 +7,10 @@ import javax.validation.constraints.NotBlank;
 abstract class TaskBase {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    protected int id;
     @NotBlank(message = "Task's description must not be empty")
-    private String description;
-    private boolean done;
+    protected String description;
+    protected boolean done;
 
     //@Embedded
     //@AttributeOverrides({

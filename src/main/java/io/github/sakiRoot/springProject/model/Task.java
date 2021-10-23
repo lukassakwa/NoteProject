@@ -24,7 +24,12 @@ public class Task extends TaskBase{
     @JoinColumn(name = "task_group_id")
     private TaskGroup group;
 
-    public Task(){
+    Task(){
+    }
+
+    public Task(String description, LocalDateTime deadline){
+        this.description = description;
+        this.deadline = deadline;
     }
 
     public LocalDateTime getDeadline() {
